@@ -22,7 +22,7 @@ namespace armacode
 	public partial class ThisApplication
 	{
 
-		public void DeleteUnusedViews() {
+		private void DeleteUnusedViews() {
 		  // define current document
 		  Document curDoc = this.ActiveUIDocument.Document;
 		
